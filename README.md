@@ -36,5 +36,6 @@ The package *com.michir.projects.spring.scheduling* contains an example of @Sche
 ### Properties
 The package *com.michir.projects.spring.configuration* contains examples of @PropertySource for loading configuration and properties files.
 
-
+### Startup Database & @Repository
+The controllers are base on a set (total of 2) of @Repository annotated classes: an InMemoy Repository and Database repository. The Database repository is based on a MySQL Database where configuration properties are in the *application.properties* file (within the resources folder). The SQL script to create the schema is in *src/etc/sql/install.sql*
 
